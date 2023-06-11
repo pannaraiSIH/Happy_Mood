@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Alert, Input, SubmitButton } from '../components';
-import { useAppContext } from '../context/AppContext';
+import { useAppContext } from '../context/appContext';
 import { useNavigate } from 'react-router-dom';
 
 const initialState = {

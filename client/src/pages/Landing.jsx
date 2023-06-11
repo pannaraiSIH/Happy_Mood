@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Input, Header, Nav, Radio } from '../components';
-import { useAppContext } from '../context/AppContext';
+import { useAppContext } from '../context/appContext';
 
 const initialState = {
   gender: '',

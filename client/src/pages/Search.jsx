@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Alert, Header, Input, Nav, SubmitButton } from '../components';
-import { useAppContext } from '../context/AppContext';
+import { useAppContext } from '../context/appContext';
 import searchPic from '../assets/images/search.svg';
 import CalorieCard from '../components/CalorieCard';
 
