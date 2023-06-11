@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Alert, Header, Input, Nav, SubmitButton } from '../components';
-import { useAppContext } from '../context/AppContext';
+import { useAppContext } from '../context/appContext';
 
 const initialState = {
   name: '',
