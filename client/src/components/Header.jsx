@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import happyMood from '../assets/images/happy-mood.svg';
-import { useAppContext } from '../context/AppContext';
+import { useAppContext } from '../context/appContext';
 import { useNavigate } from 'react-router-dom';
 
 const Header = () => {
